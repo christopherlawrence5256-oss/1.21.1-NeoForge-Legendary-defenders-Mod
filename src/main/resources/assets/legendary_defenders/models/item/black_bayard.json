@@ -1,0 +1,8 @@
+{
+  "parent": "legendary_defenders:custom/blackbayard",
+  "textures": {
+    "0": "legendary_defenders:block/black_bayard",
+    "missing": "legendary_defenders:block/black_bayard",
+    "particle": "legendary_defenders:item/black_bayard"
+  }
+}

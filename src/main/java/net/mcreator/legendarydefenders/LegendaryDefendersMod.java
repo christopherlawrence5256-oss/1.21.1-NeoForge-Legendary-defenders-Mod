@@ -18,6 +18,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.legendarydefenders.init.LegendaryDefendersModTabs;
+import net.mcreator.legendarydefenders.init.LegendaryDefendersModMenus;
+import net.mcreator.legendarydefenders.init.LegendaryDefendersModItems;
+
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
 import java.util.PriorityQueue;
@@ -38,6 +42,9 @@ public class LegendaryDefendersMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		LegendaryDefendersModItems.REGISTRY.register(modEventBus);
+		LegendaryDefendersModTabs.REGISTRY.register(modEventBus);
+		LegendaryDefendersModMenus.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

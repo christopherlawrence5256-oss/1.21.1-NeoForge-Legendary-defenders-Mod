@@ -1,0 +1,9 @@
+{
+  "parent": "legendary_defenders:custom/bluebayard",
+  "textures": {
+    "0": "legendary_defenders:block/blue_bayard",
+    "3": "legendary_defenders:block/blue_bayard",
+    "missing": "legendary_defenders:block/blue_bayard",
+    "particle": "legendary_defenders:item/blue_bayard"
+  }
+}

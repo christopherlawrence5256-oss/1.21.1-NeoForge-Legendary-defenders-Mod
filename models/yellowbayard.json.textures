@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "yellow_bayard",
+        "2": "yellow_bayard",
+        "missing": "yellow_bayard"
+      }
+    }
+  }
+}

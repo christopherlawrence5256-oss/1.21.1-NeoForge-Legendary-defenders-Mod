@@ -1,0 +1,110 @@
+{
+  "_fv": 89,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bayardinterface.png",
+          "use1Xscale": false,
+          "x": 86,
+          "y": -6,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sword",
+          "text": "sword",
+          "isUndecorated": true,
+          "width": 50,
+          "height": 20,
+          "x": 259,
+          "y": 106,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_rifle",
+          "text": "Rifle",
+          "isUndecorated": true,
+          "width": 50,
+          "height": 20,
+          "x": 139,
+          "y": 125,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_minigun",
+          "text": "Minigun",
+          "isUndecorated": true,
+          "width": 38,
+          "height": 20,
+          "x": 197,
+          "y": 160,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_spear",
+          "text": "Spear",
+          "isUndecorated": true,
+          "width": 50,
+          "height": 20,
+          "x": 258,
+          "y": 123,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_grapple",
+          "text": "grapple",
+          "isUndecorated": true,
+          "width": 60,
+          "height": 20,
+          "x": 195,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_hammer",
+          "text": "Hammer",
+          "isUndecorated": true,
+          "width": 55,
+          "height": 20,
+          "x": 138,
+          "y": 106,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,3 +1,14 @@
 {
-  "item_group.legendary_defenders.voltron": "Voltron"
+  "item_group.legendary_defenders.voltron": "Voltron",
+  "item.legendary_defenders.black_bayard": "Black Bayard",
+  "item.legendary_defenders.red_bayard": "Red Bayard",
+  "gui.legendary_defenders.bayardinterface.button_minigun": "Minigun",
+  "gui.legendary_defenders.bayardinterface.button_sword": "sword",
+  "gui.legendary_defenders.bayardinterface.button_spear": "Spear",
+  "gui.legendary_defenders.bayardinterface.button_rifle": "Rifle",
+  "gui.legendary_defenders.bayardinterface.button_grapple": "grapple",
+  "gui.legendary_defenders.bayardinterface.button_hammer": "Hammer",
+  "item.legendary_defenders.yellow_bayard": "Yellow Bayard",
+  "item.legendary_defenders.blue_bayard": "Blue Bayard",
+  "item.legendary_defenders.green_bayard": "Green Bayard"
 }

@@ -9,6 +9,84 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "BlackBayard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_bayard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legendary_defenders/models/item/black_bayard.json",
+          "src/main/java/net/mcreator/legendarydefenders/item/BlackBayardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedBayard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_bayard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/legendary_defenders/models/item/red_bayard.json",
+          "src/main/java/net/mcreator/legendarydefenders/item/RedBayardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bayardinterface",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bayardinterface",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legendarydefenders/world/inventory/BayardinterfaceMenu.java",
+          "src/main/java/net/mcreator/legendarydefenders/client/gui/BayardinterfaceScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "YellowBayard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_bayard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legendarydefenders/item/YellowBayardItem.java",
+          "src/main/resources/assets/legendary_defenders/models/item/yellow_bayard.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueBayard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_bayard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legendarydefenders/item/BlueBayardItem.java",
+          "src/main/resources/assets/legendary_defenders/models/item/blue_bayard.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenBayard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_bayard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/legendarydefenders/item/GreenBayardItem.java",
+          "src/main/resources/assets/legendary_defenders/models/item/green_bayard.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -17,13 +95,29 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item_group.legendary_defenders.voltron": "Voltron"
+      "item_group.legendary_defenders.voltron": "Voltron",
+      "item.legendary_defenders.black_bayard": "Black Bayard",
+      "item.legendary_defenders.red_bayard": "Red Bayard",
+      "gui.legendary_defenders.bayardinterface.button_minigun": "Minigun",
+      "gui.legendary_defenders.bayardinterface.button_sword": "sword",
+      "gui.legendary_defenders.bayardinterface.button_spear": "Spear",
+      "gui.legendary_defenders.bayardinterface.button_rifle": "Rifle",
+      "gui.legendary_defenders.bayardinterface.button_grapple": "grapple",
+      "gui.legendary_defenders.bayardinterface.button_hammer": "Hammer",
+      "item.legendary_defenders.yellow_bayard": "Yellow Bayard",
+      "item.legendary_defenders.blue_bayard": "Blue Bayard",
+      "item.legendary_defenders.green_bayard": "Green Bayard"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/legendarydefenders/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/legendarydefenders/init/LegendaryDefendersModScreens.java",
+      "src/main/java/net/mcreator/legendarydefenders/init/LegendaryDefendersModMenus.java",
+      "src/main/java/net/mcreator/legendarydefenders/init/LegendaryDefendersModItems.java",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/legendarydefenders/LegendaryDefendersMod.java",
+      "src/main/java/net/mcreator/legendarydefenders/init/LegendaryDefendersModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },

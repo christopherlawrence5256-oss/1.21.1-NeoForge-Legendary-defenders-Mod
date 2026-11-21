@@ -3,9 +3,9 @@
     "default": {
       "name": "default",
       "map": {
-        "0": "",
-        "1": "",
-        "missing": ""
+        "0": "blue_bayard",
+        "3": "blue_bayard",
+        "missing": "blue_bayard"
       }
     }
   }
